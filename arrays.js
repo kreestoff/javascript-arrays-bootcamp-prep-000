@@ -29,3 +29,6 @@ function destructivelyRemoveElementFromEndOfArray(vehicles) {
   vehicles.pop(vehicles)
   return vehicles
 }
+function removeElementFromEndOfArray(vehicles) {
+  return vehicles.slice(0, vehicles.length - 1)
+}
